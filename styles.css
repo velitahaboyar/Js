@@ -1,0 +1,59 @@
+body {
+  text-align: center;
+  background-color: #171717;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #ededed;
+  font-family: Ubuntu Mono;
+  text-shadow: 3px 0 #444444;
+}
+
+footer {
+  color: #da0037;
+  font-family: Ubuntu Mono;
+}
+
+body p {
+  font-size: 1rem;
+  color: #ededed;
+  font-family: Ubuntu Mono;
+  text-shadow: 2px 0 #444444;
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 0 50px #da0037;
+  opacity: 0.3;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #ededed;
+  font-size: 5rem;
+  font-family: Ubuntu Mono;
+  line-height: 2;
+  font-weight: 900;
+  color: #ededed;
+  text-shadow: 2px 0 #da0037;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: #444444;
+}
